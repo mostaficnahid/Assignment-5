@@ -14,7 +14,7 @@
 
 <!-- style -->
  <style>
-    #blog-btn{
+    .blog-btn{
         background-color: rgb(180, 244, 97);
     }
     .header{
@@ -29,7 +29,7 @@ background: rgba(17, 17, 17, 0.05);
 align-items: center;
 
     }
-    #input-noakhali{
+    .input-noakhali{
       width: 522px;
 height: 56px;
 box-sizing: border-box;
@@ -63,14 +63,14 @@ background: rgb(255, 255, 255);}
               </svg>
             </div>
           </div>
-          <a id="blog-btn" class="btn">Blog</a>
+          <a id="" class="blog-btn btn">Blog</a>
         </div>
         <a class="btn btn-ghost text-xl text-black font-bold">
            <img src="assets/logo.png" alt=""> Donate Bangladesh</a>
         <div class="navbar-end">
           <div class="flex gap-2">
             <img src="assets/coin.png" alt="">
-            <p class="text-slate-300 font-bold "><SPAn>5000</SPAn> <span>BDT</span></p>
+            <p class="text-slate-300 font-bold "><SPAn id="main-balance">5000</SPAn> <span>BDT</span></p>
           </div>
         </div>
       </div>
@@ -81,7 +81,7 @@ background: rgb(255, 255, 255);}
 
   <!-- User Action Buttons -->
    <div class="flex justify-center mt-10 gap-2">
-    <button id="blog-btn show-donation" class="btn btn-lg">Donation</button>
+    <button id=" show-donation" class="blog-btn btn btn-lg">Donation</button>
     <button id="show-history" class="btn btn-lg">History</button>
    </div>
 <br>
@@ -92,16 +92,16 @@ background: rgb(255, 255, 255);}
     <img
       src="assets/noakhali.png" />
     <div>
-      <button id="noakhali" class="flex gap-2 text-center"><img src="assets/coin.png" alt=""><span>0</span> <span>BDT</span></button>
+      <button id="noakhali" class="flex gap-2 text-center"><img src="assets/coin.png" alt=""><span id="noa">0</span> <span>BDT</span></button>
       <h1 class="text-2xl font-bold">Donate for Flood at Noakhali, Bangladesh</h1>
       <p class="py-6">
         The recent floods in Noakhali have caused significant damage to homes  infrastructure. Your donation will help provide essential supplies and  to those affected by this disaster. Every contribution, big or small, makes  difference. Please join us in supporting the relief efforts and making a positive impact on the lives of those in need.
       </p>
 
-      <input id="input-noakhali" type=" text" placeholder="Write Donation Amount">
+      <input id="input-noa-donation " class="input-noakhali"   type="number" placeholder="Write Donation Amount">
       <br>
       <br>
-      <button id="blog-btn" class=" btn btn-primary w-[522px] h-[57px] text-black font-bold">Donate Now</button>
+      <button id="btn-noa-donation" class="blog-btn btn btn-primary w-[522px] h-[57px] text-black font-bold">Donate Now</button>
     </div>
   </div>
 </div>
@@ -115,16 +115,16 @@ background: rgb(255, 255, 255);}
     <img
       src="assets/feni.png" />
     <div>
-      <button id="noakhali" class="flex gap-2 text-center"><img src="assets/coin.png" alt=""><span>600</span> <span>BDT</span></button>
+      <button id="noakhali" class="flex gap-2 text-center"><img src="assets/coin.png" alt=""><span id="feni">600</span> <span>BDT</span></button>
       <h1 class="text-2xl font-bold">Donate for Flood Relief in Feni,Bangladesh</h1>
       <p class="py-6">
         The recent floods in Feni have devastated local communities, leading to severe disruption and loss. Your generous donation will help provide immediate aid, including food, clean water, and medical supplies, to those affected by this calamity. Together, we can offer crucial support and help rebuild lives in the aftermath of this disaster. Every contribution counts towards making a real difference. Please consider donating today to assist those in urgent need.
       </p>
 
-      <input id="input-noakhali" type=" text" placeholder="Write Donation Amount">
+      <input id="input-feni-donation" class="input-noakhali" type="number" placeholder="Write Donation Amount">
       <br>
       <br>
-      <button id="blog-btn" class=" btn btn-primary w-[522px] h-[57px] text-black font-bold">Donate Now</button>
+      <button id="btn-feni-donation" class="blog-btn btn btn-primary w-[522px] h-[57px] text-black font-bold">Donate Now</button>
     </div>
   </div>
 </div>
@@ -138,16 +138,16 @@ background: rgb(255, 255, 255);}
       <img
         src="assets/quota-protest.png" />
       <div>
-        <button id="noakhali" class="flex gap-2 text-center"><img src="assets/coin.png" alt=""><span>2400</span> <span>BDT</span></button>
+        <button id="noakhali" class="flex gap-2 text-center"><img src="assets/coin.png" alt=""><span id="aid">2400</span> <span>BDT</span></button>
         <h1 class="text-2xl font-bold">Aid for Injured in the Quota Movement</h1>
         <p class="py-6">
           The recent Quota movement has resulted in numerous injuries and significant hardship for many individuals. Your support is crucial in providing medical assistance, rehabilitation, and necessary supplies to those affected. By contributing, you help ensure that injured individuals receive the care and support they need during this challenging time. Every donation plays a vital role in alleviating their suffering and aiding in their recovery. Please consider making a donation to support these brave individuals in their time of need.
         </p>
   
-        <input id="input-noakhali" type=" text" placeholder="Write Donation Amount">
+        <input id="input-aid-donation" class="input-noakhali" type="number" placeholder="Write Donation Amount">
         <br>
         <br>
-        <button id="blog-btn" class=" btn btn-primary w-[522px] h-[57px] text-black font-bold">Donate Now</button>
+        <button id="btn-aid-donation" class="blog-btn btn btn-primary w-[522px] h-[57px] text-black font-bold">Donate Now</button>
       </div>
     </div>
   </div>
